@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "lib": ["esnext"],
+    "jsx": "react",
+    "allowJs": true,
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "types": ["node", "jest"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "isolatedModules": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true
+  },
+  "exclude": ["**/coverage/*", "**/dist/*", "**/*.js"]
+}

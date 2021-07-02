@@ -1,0 +1,7 @@
+node_modules
+dist
+
+# testing
+coverage
+
+.DS_Store
